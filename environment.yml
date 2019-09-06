@@ -9,4 +9,5 @@ dependencies:
   - requests
   - pip
   - pip:
-    - sklearn
+    - scikit-learn==0.21.2
+    - jupyterlab
