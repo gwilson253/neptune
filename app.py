@@ -32,3 +32,6 @@ def predict():
         df = pd.read_json(data)
         df['_pred'] = model.predict(df.values)
         return df.to_json()
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
